@@ -39,3 +39,8 @@ python manage.py migrate
 ```shell
 python manage.py runserver
 ```
+
+### Create superuser
+```shell
+python manage.py createsuperuser
+```
