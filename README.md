@@ -1,5 +1,24 @@
 ## Simple project for learning DRF(Django Rest Framework)
 
+### Create virtual environment
+```shell
+python3 -m venv venv
+```
+
+### Activate virtual environment on linux
+```shell
+source venv/bin/activate
+```
+
+### Activate virtual environment on windows
+```shell
+venv\Scripts\activate
+```
+
+### Install packages
+```shell
+pip install -r requirements.txt
+```
 
 ### Generate migrations from model classes
 ```shell
