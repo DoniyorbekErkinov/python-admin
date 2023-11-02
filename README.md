@@ -2,7 +2,7 @@
 
 ### Create virtual environment
 ```shell
-python3 -m venv venv
+python -m venv venv
 ```
 
 ### Activate virtual environment on linux
@@ -43,4 +43,9 @@ python manage.py runserver
 ### Create superuser
 ```shell
 python manage.py createsuperuser
+```
+
+### Create new app
+```shell
+python manage.py startapp <appName>
 ```

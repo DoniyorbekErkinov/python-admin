@@ -1,7 +1,13 @@
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
-from main.serializers import BookSerializer
+from main.serializers import BookSerializer, AuthorSerializer
 from rest_framework import permissions
-from main.models import Book
+from main.models import Book, Author
+
+
+class AuthorsView(ListCreateAPIView):
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
+    queryset = Author.objects.all()
+    serializer_class = AuthorSerializer
 
 
 class BookListView(ListCreateAPIView):

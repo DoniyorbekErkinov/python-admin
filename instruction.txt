@@ -1,0 +1,9 @@
+### Add new Model
+``` 
+1. Models.py class yoziladi. Class ichida qanday fieldlar bo'lishi ko'rsatiladi
+(makemigrations & migrate)
+2. Serializer yoziladi
+3. View yoziladi
+4. urls.py ga register qilinadi
+5. Admin/py adminkada chiqishi uchun
+```
