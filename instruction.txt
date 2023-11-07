@@ -6,4 +6,4 @@
 3. View yoziladi
 4. urls.py ga register qilinadi
 5. Admin/py adminkada chiqishi uchun
-```
+``` 
