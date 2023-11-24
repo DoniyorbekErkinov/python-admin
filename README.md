@@ -49,3 +49,5 @@ python manage.py createsuperuser
 ```shell
 python manage.py startapp <appName>
 ```
+
+### Thanks to https://www.linkedin.com/in/lutfiddin-xidirov/
